@@ -1,63 +1,57 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("/home/com172/website/thapa/simple-background-backgrounds-passion-simple-1-5c9b95d09002a.png");
-  
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-.btn{
+.btn {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
   border-radius: 50px;
-  transition:0.5s;
-  color:#3498db;
-  border:2px solid #3498db;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
   text-decoration: none;
-  
 }
-.btn:hover{
+.btn:hover {
   color: #e6ebef;
   background-color: #51aeed;
-
 }
-.photo{
+.photo {
   background-image: url("/home/com172/website/thapa/c7455161bd3a65752dbf06f3ba520a9e.jpg");
-  width:669px;
-  height:460px;
+  width: 669px;
+  height: 460px;
 }
-.page{
-  display:flex;
+.page {
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.second{
-  
-    text-align: center;
-    font-size: larger;
-    color: rgb(246, 145, 164);
+.second {
+  text-align: center;
+  font-size: larger;
+  color: rgb(246, 145, 164);
 }
-.let{
-  color:black;
+.let {
+  color: black;
 }
-.content{
+.content {
   margin-right: 307px;
   margin-top: -25px;
 }
-.last{
+.last {
   text-align: center;
 }
-.fifth{
+.fifth {
   text-align: center;
   padding: 25px;
 }

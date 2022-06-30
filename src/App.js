@@ -6,10 +6,12 @@ import Contact from './Component/Contact';
 
 
 import {Switch,Route} from "react-router-dom";
+import ResponsiveAppBar from './ResponsiveAppBar';
 
 function App() {
   return (
     <div className='whole' >
+      <ResponsiveAppBar/>
       <h1 className="header">Lovebirds</h1>
             
             <Switch >

@@ -1,25 +1,26 @@
 import React from 'react';
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
+import Form from './Form';
+// import Box from '@mui/material/Box';
+// import TextField from '@mui/material/TextField';
 
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 
 function About() {
   return (
     <div className="page">
       <div className="photo"></div>
       <div className="content">
-          <h1>Register with us  </h1>
-          <form>
-        <Box
-          component="form"
-          sx={{
-            '& .MuiTextField-root': { m: 1, width: '25ch' },
-          }}
-          noValidate
-          autoComplete="off"
-        >
-          
+        <h1>Register with us </h1>
+        <Form/>
+        {/* <form>
+          <Box
+            component="form"
+            sx={{
+              '& .MuiTextField-root': { m: 1, width: '25ch' },
+            }}
+            noValidate
+            autoComplete="off"
+          >
             <div>
               {' '}
               <TextField
@@ -70,8 +71,8 @@ function About() {
             <Button variant="contained" type="submit" href="/contact">
               Submit
             </Button>
-        </Box>
-          </form>
+          </Box>
+        </form> */}
       </div>
     </div>
   );
