@@ -50,8 +50,15 @@ code {
 }
 .last {
   text-align: center;
+  color: black;
 }
 .fifth {
   text-align: center;
   padding: 25px;
+}
+.hey{
+  display: flex;
+  justify-content: space-evenly;
+  
+  font-size: 38px
 }

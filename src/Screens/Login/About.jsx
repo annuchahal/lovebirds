@@ -1,5 +1,5 @@
 import React from 'react';
-import Form from './Form';
+import Form from '../../Component/Form';
 // import Box from '@mui/material/Box';
 // import TextField from '@mui/material/TextField';
 
