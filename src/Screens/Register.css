@@ -1,0 +1,28 @@
+.register-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.log-div{
+    display: flex;
+    justify-content: space-around;
+}
+.out-div{
+    
+    
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+}
+.out-div:hover {
+    color: #e6ebef;
+    background-color: #51aeed;
+}

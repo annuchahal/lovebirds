@@ -1,0 +1,13 @@
+.photo {
+    background-image: url("/home/com172/website/thapa/public/images/c7455161bd3a65752dbf06f3ba520a9e.jpg");
+    width: 669px;
+    height: 353px;
+  }
+  .page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .form-div{
+    padding: 1px 138px 8px 29px;
+  }

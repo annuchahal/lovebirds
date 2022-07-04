@@ -1,0 +1,49 @@
+.btn {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #79a9c9;
+  border: 2px solid #3498db;
+}
+.btn:hover {
+  color: #e6ebef;
+  background-color: #6cb4e4;
+}
+.second {
+  text-align: center;
+  font-size: larger;
+  color: rgb(246, 145, 164);
+}
+.last {
+  text-align: center;
+  color: grey;
+}
+Link {
+  text-decoration: none;
+}
+.out-div {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #87c0e6;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+.out-div:hover {
+  color: #e6ebef;
+  background-color: #51aeed;
+}
+.container {
+  display: flex;
+  justify-content: end;
+  padding: 20px 56px 20px 20px;
+}
