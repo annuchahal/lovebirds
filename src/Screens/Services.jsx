@@ -5,16 +5,20 @@ import './Home.css';
 
 const Services = () => {
   const navigate = useNavigate();
-  useEffect(() => {
-    if (JSON.parse(!localStorage.getItem('token'))) {
-      navigate('/login');
-    }
-  });
+
+  const reset = () => {
+    console.log('test------------------------P');
+    localStorage.removeItem('token');
+    navigate('/login');
+  };
+
   return (
-    <div><div className='container'>
-      <div className="out-div">
-        <Link to="/login">Log out</Link>
-      </div>
+    <div>
+      <div className="container">
+        <div className="out-div">
+          {/* <Link to="/login">Log out</Link> */}
+          <button onClick={reset}>Log out</button>
+        </div>
       </div>
 
       <h1 className="header">Lovebirds</h1>

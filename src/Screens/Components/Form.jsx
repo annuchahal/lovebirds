@@ -26,14 +26,14 @@ function Form() {
     console.log({ email, password });
     e.preventDefault();
     axios
-      .post('https://reqres.in/api/login', {
+      .post('http://localhost:7000/v1/auth/login', {
         email: email,
         password: password,
       })
-      .then((result) => {
-        console.log(result);
+      .then((response) => {
+        console.log(response);
         alert(`success`);
-        localStorage.setItem("token",JSON.stringify(result.data.token));
+        // localStorage.setItem("id",JSON.stringify(result.user.id));
         navigate('/services');
       })
       .catch((error) => {
